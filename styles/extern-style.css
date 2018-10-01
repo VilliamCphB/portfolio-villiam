@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	color: black;
+	font-family: helvetica, arial, sans-serif; 
+	text-align: justify;
+	line-height: 140%;
+	width: 400px;
+}
+.container {
+	display: flex;
+	width: 960px;
+	flex-wrap: wrap; /*skubber texten ned*/
+	justify-content: space-around; /*fordeler whitespace jævnt rund om elementerne*/
+	margin-left: auto;
+	margin-right: auto;
+	/*background: lightblue;*/
+}
+.item {
+	background: #ddd;
+	/*border: 1px solid #666;*/
+	margin-top:8px;
+	text-align: center;
+	padding-top: 8px;
+}
+.logo {
+	height: 60px;
+	width: 19%;
+}
+.global-nav {
+	width: 79%;
+}
+		.local-nav {
+			width:19%;
+				height: 400px;
+		}
+		article {
+			width: 49%;
+		}
+		.reklame {
+			width: 29%;
+		}
+		footer {
+			width: 99%;
+			height: 60px;
